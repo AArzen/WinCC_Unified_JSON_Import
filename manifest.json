@@ -1,0 +1,71 @@
+{
+	"mver": "1.2.0",
+	"control": {
+		"identity": {
+			"name": "JSON_FileSelectorData_Import",
+			"version": "1.0",
+			"displayname": "JSON_FileSelectorData_Import",
+			"icon": "./assets/Import_JSON.ico",
+			"type": "guid://C82D81A3-69A3-47E7-8A7E-1EDF5A34F503",
+			"start": "./control/index.html"
+		},
+		"metadata": {
+			"author": "AArzen",
+			"keywords": []
+		},
+		"contracts": {
+			"api": {
+				"methods": {},
+				"events": {
+					"fileSelected": {
+						"arguments": {
+							"allData": {
+								"type": "object"
+							}
+						}
+					}
+				},
+				"properties": {
+					"ButtonWidth": {
+						"type": "number",
+						"default": 100
+					},
+					"ButtonHeight": {
+						"type": "number",
+						"default": 40
+					},
+					"ButtonBorderRadius": {
+						"type": "number",
+						"default": 8
+					},
+					"ButtonFontSize": {
+						"type": "number",
+						"default": 18
+					},
+					"ButtonColor": {
+						"$ref": "#/control/types/Color",
+						"default": 4286294590
+					},
+					"ButtonPushColor": {
+						"$ref": "#/control/types/Color",
+						"default": 4286294590
+					},
+					"ButtonHoverColor": {
+						"$ref": "#/control/types/Color",
+						"default": 4286294590
+					},
+					"ButtonText": {
+						"type": "string",
+						"default": "button"
+					}
+				}
+			}
+		},
+		"types": {
+			"Color": {
+				"$id": "http://tia.siemens.com/wincc-unified/types/s/color",
+				"type": "number"
+			}
+		}
+	}
+}
