@@ -20,7 +20,7 @@
 					"fileSelected": {
 						"arguments": {
 							"allData": {
-								"type": "object"
+								"type": "string"
 							}
 						}
 					}
