@@ -5,7 +5,7 @@
 			"name": "JSON_FileSelectorData_Import",
 			"version": "1.0",
 			"displayname": "JSON_FileSelectorData_Import",
-			"icon": "./assets/Import_JSON.ico",
+			"icon": "./assets/Import_JSON.png",
 			"type": "guid://C82D81A3-69A3-47E7-8A7E-1EDF5A34F503",
 			"start": "./control/index.html"
 		},

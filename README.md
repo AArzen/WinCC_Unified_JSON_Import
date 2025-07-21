@@ -1,6 +1,6 @@
 # WinCC Unified JSON File Selector Data Import
 
-![Loading Icon](./assets/Import_JSON.ico)
+![Loading Icon](./assets/Import_JSON.png)
 
 This repository provides a custom WebControl for importing and processing JSON files within Siemens WinCC Unified. The control allows users to select a JSON file, parse its content, and process it inside the WinCC Unified runtime environment.
 
